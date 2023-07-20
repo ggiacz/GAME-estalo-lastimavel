@@ -25,6 +25,8 @@ Acesse o link: https://ggiacz.github.io/GAME-estalo-lastimavel/
 - Mateus Santos (https://github.com/MateusNascimentoSantos)
 
 ## To-Do
+- converter para javascript "type module".
+    - e documentar de forma correta cada modulo, separando tambem a utilidade de cada um
 - modificar o deck do oponente para um diferente ao do jogador.
     - fazer isso adicionando cartas extras a constante deck e modificando a variável deck_inimigo.
 - corrigir bug na soma de resultado final, que as vezes erra. (não sei porque)
