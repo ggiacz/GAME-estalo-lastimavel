@@ -13,11 +13,11 @@ Um jogo feito em javascript vanilla que simula algumas das mecânicas do jogo "M
 - Ao fim do jogo, ganha quem possuir mais locais (que são possuídos a partir da soma de poder das cartas ali jogadas.)
     - Em caso de empate de poder em um local, o oponente domina aquele local.
 
-### Créditos
+## Créditos
 - Gabriel Giacomo (https://github.com/ggiacz)
 - Mateus Santos (https://github.com/MateusNascimentoSantos)
 
-### to-do
+## to-do
 - modificar o deck do oponente para um diferente ao do jogador.
     - fazer isso adicionando cartas extras a constante deck e modificando a variável deck_inimigo.
 - corrigir bug na soma de resultado final, que as vezes erra. (não sei porque)
