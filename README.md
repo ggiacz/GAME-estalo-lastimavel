@@ -10,7 +10,7 @@ Acesse o link: https://ggiacz.github.io/GAME-estalo-lastimavel/
 - Baixe o projeto em "releases". (A versão mais recente)
 - Abra o arquivo index.html em um navegador.
 
-### O Jogo
+### Regras
 - Clicar no botão para iniciar o jogo. O inimigo joga primeiro.
     - Lembre-se: Ele é trapaceiro. Ele não segue nenhuma regra de energia para jogar cartas.
 - Clique na carta que deseja jogar para selecioná-la, e então clique no local que deseja jogá-la.
