@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+    </style>
+    <title>Estalo Lastimável</title>
+</head>
+
+<body>
+
+    <!-- TITULO DO JOGO -->
+    <div class="titulo">
+        <h1>ESTALO LASTIMÁVEL</h1>
+    </div>
+
+    <div class="info_locais">
+        <div id="info_local1">
+            Força do Inimigo = 0 | Sua Força = 0
+        </div>
+        <div id="info_local2">
+            Força do Inimigo = 0 | Sua Força = 0
+        </div>
+        <div id="info_local3">
+            Força do Inimigo = 0 | Sua Força = 0
+        </div>
+    </div>
+
+    <!-- TABULEIRO COM OS LOCAIS -->
+    <div class="locais">
+
+        <!-- LOCAL 1 -->
+        <div class="local" id="local1">
+            <div class="slot_inimigo" id="slot_inimigo1">
+                <!-- GERADO POR JAVASCRIPT -->
+            </div>
+            <div class="slot_aliado" id="slot_aliado1" onclick="seleciona_local(event)">
+                <!-- GERADO POR JAVASCRIPT -->
+            </div>
+        </div>
+
+        <!-- LOCAL 2 -->
+        <div class="local" id="local2">
+            <div class="slot_inimigo" id="slot_inimigo2">
+                <!-- GERADO POR JAVASCRIPT -->
+            </div>
+            <div class="slot_aliado" id="slot_aliado2" onclick="seleciona_local(event)">
+                <!-- GERADO POR JAVASCRIPT -->
+            </div>
+        </div>
+
+        <!-- LOCAL 3 -->
+        <div class="local" id="local3">
+            <div class="slot_inimigo" id="slot_inimigo3">
+                <!-- GERADO POR JAVASCRIPT -->
+            </div>
+            <div class="slot_aliado" id="slot_aliado3" onclick="seleciona_local(event)">
+                <!-- GERADO POR JAVASCRIPT -->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CONTAINER QUE CONTEM MAO DE CARTAS E INFORMACOES -->
+    <div class="mao_e_info">
+
+        <!-- MAO COM AS CARTAS -->
+        <div class="mao" id="mao">
+            <!-- CARREGADAS VIA JAVASCRIPT -->
+        </div>
+
+        <!-- INFORMACOES -->
+        <div class="info">
+            <div class="turno" id="turno">
+                <p>TURNO: 0 / 6</p>
+            </div>
+
+            <div class="energia" id="energia">
+                <p>ENERGIA: 0 / 6</p>
+            </div>
+
+            <button onclick="botao_clicado()" id="botao">
+                <p>CLIQUE AQUI PARA COMEÇAR</p>
+            </button>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

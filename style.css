@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background: linear-gradient(#4d16a6, #957da4);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 3px 3px 3px black;
+}
+
+.info_locais {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #dfcbcb;
+  text-shadow: 3px 3px 3px black;
+  padding-bottom: 10px;
+}
+
+.locais {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#local1 {
+  background-image: url(./images/arena1.png);
+  width: 500px;
+  height: 500px;
+  border: solid #1a0936;
+}
+
+#local2 {
+  background-image: url(./images/arena2.png);
+  width: 500px;
+  height: 500px;
+  border: solid #1a0936;
+}
+
+#local3 {
+  background-image: url(./images/arena3.png);
+  width: 500px;
+  height: 500px;
+  border: solid #1a0936;
+}
+
+.local {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.slot_inimigo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.slot_inimigo p {
+  font-size: 28px;
+  font-weight: 700;
+  color: #dfcbcb;
+  text-shadow: 3px 3px 3px black;
+  background-color: rgb(139, 0, 19);
+  padding: 10px;
+}
+
+.slot_aliado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  flex-shrink: 1;
+  cursor: pointer;
+}
+
+.slot_aliado p {
+  font-size: 28px;
+  font-weight: 700;
+  color: #dfcbcb;
+  text-shadow: 3px 3px 3px black;
+  background-color: darkblue;
+  padding: 10px;
+}
+
+.slot_aliado:hover {
+  background-color: #333333;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+
+.mao_e_info {
+  display: flex;
+  flex-direction: row;
+  margin-right: 70px;
+}
+
+.mao {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 250px;
+}
+
+.turno {
+  font-size: 50px;
+  text-shadow: 5px 5px 5px rgb(255, 255, 255);
+  align-self: center;
+}
+
+.energia {
+  font-size: 50px;
+  text-shadow: 5px 5px 5px rgb(255, 255, 255);
+  align-self: center;
+}
+
+.info button {
+  background-color: #1a0936;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0 / 0.5);
+}
+
+.carta {
+  border: solid #1a0936;
+  border-radius: 10px;
+  height: 250px;
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: bottom;
+  gap: 2px;
+  align-items: center;
+  font-size: 28px;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(230, 11, 11);
+  color: rgb(116, 4, 27);
+  flex-shrink: 1;
+  background-position: center;
+  background-size: cover;
+}
+
+.carta:hover {
+  background-color: #b1aeae;
+  border-radius: 5px;
+}
