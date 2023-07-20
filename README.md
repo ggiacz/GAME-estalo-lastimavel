@@ -4,8 +4,15 @@ Um jogo feito em javascript vanilla que simula algumas das mecânicas do jogo "M
 - Você enfrentará um treinador trapaceiro em três batalhas simultâneas, junto ao seu fiel time de pokémons do tipo fogo. Quem sairá vitorioso?
 
 ## Como Jogar?
-- Baixe o projeto para seu computador.
+
+# Online
+Acesse o link: 
+
+# Download
+- Baixe o projeto em "releases". (A versão mais recente)
 - Abra o arquivo index.html em um navegador.
+
+# O Jogo
 - Clicar no botão para iniciar o jogo. O inimigo joga primeiro.
     - Lembre-se: Ele é trapaceiro. Ele não segue nenhuma regra de energia para jogar cartas.
 - Clique na carta que deseja jogar para selecioná-la, e então clique no local que deseja jogá-la.
