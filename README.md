@@ -1,7 +1,5 @@
 # **Estalo Lastimável**
-Um jogo feito em javascript vanilla que simula algumas das mecânicas do jogo "Marvel Snaps" em uma temática de batalhas de ginásio pokémon.
-
-- Você enfrentará um treinador trapaceiro em três batalhas simultâneas, junto ao seu fiel time de pokémons do tipo fogo. Quem sairá vitorioso?
+Você enfrentará um treinador trapaceiro em três batalhas simultâneas, junto ao seu fiel time de pokémons do tipo fogo. Quem sairá vitorioso?
 
 ## Como Jogar?
 
