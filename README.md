@@ -5,14 +5,14 @@ Um jogo feito em javascript vanilla que simula algumas das mecânicas do jogo "M
 
 ## Como Jogar?
 
-# Online
-Acesse o link: 
+### Online
+Acesse o link: https://ggiacz.github.io/GAME-estalo-lastimavel/
 
-# Download
+### Download
 - Baixe o projeto em "releases". (A versão mais recente)
 - Abra o arquivo index.html em um navegador.
 
-# O Jogo
+### O Jogo
 - Clicar no botão para iniciar o jogo. O inimigo joga primeiro.
     - Lembre-se: Ele é trapaceiro. Ele não segue nenhuma regra de energia para jogar cartas.
 - Clique na carta que deseja jogar para selecioná-la, e então clique no local que deseja jogá-la.
